@@ -5,7 +5,7 @@ from selenium import webdriver
 
 class CoronaStats:
     def __init__(self, country, website):
-        self.driver = webdriver.Chrome('/Users/akhileshsingh/Desktop/Drivers/chromedriver')
+        self.driver = webdriver.Chrome('<Driver Path>')
         self.country = country
         self.website = website
 
